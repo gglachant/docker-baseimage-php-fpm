@@ -4,7 +4,7 @@ MAINTAINER Gabriel Glachant <gglachant@gmail.com>
 
 ENV DEBIAN_FRONTEND noninteractive
 ENV HOME /root
-ENV PHP_FPM_PACKAGE_VERSION 5.5.9+dfsg-1ubuntu4.4
+ENV PHP_FPM_PACKAGE_VERSION 5.5.9+dfsg-1ubuntu4.14
 
 RUN apt-get -qy update && \
 	apt-get -qy install php5-fpm=$PHP_FPM_PACKAGE_VERSION && \
